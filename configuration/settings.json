@@ -1,0 +1,142 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "window.zoomLevel": 2,
+    // "cmake.cmakePath": "E:\\software\\vscode\\edit\\CMake\\bin\\cmake.exe",
+    // "cmake.ctestPath": "E:\\software\\vscode\\edit\\CMake\\bin\\ctest.exe",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "workbench.iconTheme": "vscode-icons",
+    // "http.proxySupport": "off",
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.easymotionMarkerFontSize": "",
+    "vim.handleKeys": {
+
+
+        //     "<C-e>": false,
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-f>": false,
+        // "<C-h>": false,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-y>": false,
+    },
+    //快捷键映射，esc映射到 j j
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+
+        },
+        {
+            "before": [
+                "<C-e>"
+            ],
+            "commands": [
+                "cursorLineEnd"
+            ]
+
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "cursorLeft"
+            ]
+
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "cursorDown"
+            ]
+
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                "cursorUp"
+            ]
+
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                "cursorRight"
+            ]
+
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "diffEditor.renderSideBySide": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.c"
+        }
+    ],
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "xml.fileAssociations": [
+    
+    ],
+    "[xml]": {
+        // "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "files.autoSave": "onFocusChange",
+    "git.path": "",
+    "sync.autoUpload": true,
+    "vim.commandLineModeKeyBindings": [
+    
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.normalModeKeyBindings": [
+    
+    ],
+}
